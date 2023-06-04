@@ -2,7 +2,42 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="text-center">Footer</p>
+                <div class="row">
+                    <div class="col-6">
+                        <h1 class="text-center">
+                            <a href="/">
+                                <img src="ScoolPage/pics/DnDLogo.png" alt="DnD Logo" width="100" height="100">
+                            </a>
+                            <p class="text-center">All rights reserved</p>
+                            <p class="text-center">© 2021</p>
+                            <p class="text-center">Tomáš Miňovský</p>
+                        </h1>
+                    </div>
+                    <div class="col-6 footNav">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" id="wiki-page" href="/wiki">Wiki</a>
+                            </li>
+                            <li>
+                                <div class="vl"></div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="blog-page" href="/blog">Blog</a>
+                            </li>
+                            <li>
+                                <div class="vl"></div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="aboutus-page" href="/aboutus">About Us</a>
+                            </li>
+                            <li>
+                                <div class="vl"></div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="faq-page" href="/faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
         </div>
     </div>

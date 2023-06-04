@@ -26,47 +26,121 @@
 }
 
 .WikiBack{
-    background-color: #F5E9CF;
-    /*smooth out the corners*/
+    background-color: #EBD5B3;
     border-radius: 25px;
-    margin-top: 10px;
+    margin-top: 52px;
     margin-bottom: 10px;
+}
+
+body{
+    background-image: url("ScoolPage/pics/GrandValleyCastle.png");
+    /*make it so when the page is scrolled down the background image stays in place
+    */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #EBD5B3;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #E96479;
-}
-
 header {
     grid-area: header;
-    background-color: #4D455D;
+    background-color: #4c918e;
+    height: 125px;
 }
+
+header div {
+    margin-top: 5px;
+}
+
+header .container .row{
+    height: 100%;
+}
+
 nav {
     grid-area: nav;
     background-color: #7DB9B6;
-    margin-top: -10px;
-    margin-bottom: -5px;
+    margin-top: 25px;
+    margin-bottom: -40px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 main {
     grid-area: main;
-    background-color: #f1f1f1;
+    background-color: #F2D7AC;
+    border-radius: 25px;
+    margin-top: 52px;
+    margin-bottom: 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    min-height: 100vh;
 }
 footer {
     grid-area: footer;
     background-color: #7DB9B6;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    height: 320px;
+
+}
+
+footer div {
+    margin-top: 5px;
+}
+
+footer .container .row{
+    height: 100%;
+}
+
+.footNav{
+    display: flex;
+    align-items: center;
+
+}
+
+.footNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footNav li{
+    display: flex;
+    align-items: center;
+}
+
+.footNav a{
+    color: #212529;
+}
+
+.footNav .vl{
+    border-left: 1px solid silver;
+    height: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.footNav .nav-item{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.footNav .nav-item:hover{
+    background-color: #d0d1d2;
+    color: #212529;
+    border-radius: .25rem;
 }
 
 hr {
     border: 3px solid #f1f1f1;
     margin: 0;
+}
+
+a{
+    color: #212529;
 }
 
 .nav{
@@ -168,7 +242,11 @@ hr {
 
                     </div>
                     <div class="col-4">
-                        <h1 class="text-center">Logo</h1>
+                        <h1 class="text-center">
+                            <a href="/">
+                                <img src="ScoolPage/pics/DnDLogo.png" alt="DnD Logo" width="100" height="100">
+                            </a>
+                        </h1>
                     </div>
                     <div class="col-4">
                         <button type="button" class="btn btn-primary" id="MainLoginButton" data-toggle="modal"

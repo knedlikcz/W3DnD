@@ -42,6 +42,12 @@ function ClearUpArray($decoded){
     if(isset($decoded["url"])){
         unset($decoded["url"]);
     }
+    if(isset($decoded["count"])){
+        unset($decoded["count"]);
+    }
+    if(isset($decoded["full_name"])){
+        unset($decoded["name"]);
+    }
     return $decoded;
 }
 
